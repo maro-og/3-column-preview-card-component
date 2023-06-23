@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    /* PRIMARY */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --vdark-cyan: hsl(179, 100%, 13%);
+
+    /* NEUTRAL */
+    --trans-white: hsla(0, 0%, 100%, 0.75);
+    --vlight-gray: hsl(0, 0%, 95%);
+
+    /* FONTS */
+    --lexend-deca: 'Lexend Deca', sans-serif;
+    --bgshoulders-disp: 'Big Shoulders Display', cursive;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--vlight-gray);
+    Font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+}
+
+.all-section {
+    padding: 3rem;
+}
+
+.sedan {
+    background-color: var(--bright-orange);
+    border-radius: 0.3rem 0.3rem 0rem 0rem;
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--vdark-cyan);
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--vlight-gray);
+    font-family: var(--bgshoulders-disp);
+    text-transform: uppercase;
+    margin: 1.5rem 0rem;
+}
+
+p {
+    color: var(--trans-white);
+    font-family: var(--lexend-deca);
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.all-btns {
+    white-space: nowrap;
+    background-color: var(--vlight-gray);
+    width: 50%;
+    padding: 0.8rem;
+    border-color: transparent;
+    border-radius: 2rem;
+    font-family: var(--lexend-deca);
+    cursor: pointer;
+}
+
+.sedan-btn {
+    color: var(--bright-orange);
+}
+
+.suvs-btn {
+    color: var(--dark-cyan);
+}
+
+.luxury-btn {
+    color: var(--vdark-cyan);
+}
+
+@media screen and (min-width: 48rem) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .all-section {
+        max-width: 18.75rem;
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+
+    .sedan {
+        border-radius: 0.3rem 0rem 0rem 0.3rem;
+    }
+    
+    .luxury {
+        border-radius: 0rem 0.3rem 0.3rem 0rem;
+    }
+
+    .all-btns {
+        width: 75%;
+    }
+}
