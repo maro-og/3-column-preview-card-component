@@ -81,6 +81,10 @@ p {
     cursor: pointer;
 }
 
+.all-btns:hover {
+    background-color: aliceblue;
+}
+
 .sedan-btn {
     color: var(--bright-orange);
 }
