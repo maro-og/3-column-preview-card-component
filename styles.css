@@ -82,7 +82,9 @@ p {
 }
 
 .all-btns:hover {
-    background-color: aliceblue;
+    background-color: transparent;
+    color: var(--vlight-gray);
+    border: 1px solid var(--vlight-gray);
 }
 
 .sedan-btn {
