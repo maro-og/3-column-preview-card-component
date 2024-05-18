@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/maro-og/3-column-preview-card-component.git)
+- Live Site URL: [Add live site URL here](https://maro-og.github.io/3-column-preview-card-component/)
 
 ## My process
 
